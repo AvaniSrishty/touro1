@@ -1,0 +1,330 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #c0d893, #c3dd6f, #bfd87a, #cbd698);
+justify-content: right;
+align-items: right;
+}
+
+.header
+{
+	color: black;font-family: 'Yeon Sung';font-size: 70px;letter-spacing: 7px;margin-top: 80px;
+}
+
+#touro_img{
+	border-radius: 70%;
+}
+
+.header img
+{
+	width: 80px;margin-left: -15px;
+    border-radius: 25px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);border-radius: 17px;
+	float: inherit;
+}
+
+#login_button
+{
+	width: 70%;border-radius: 13px;
+}
+
+#contact iframe
+{
+    width: 100%;
+}
+
+#contactus
+{
+	font-family:monospace;
+	letter-spacing: 2px;
+}
+
+#para 
+{
+  font-size: 20px;
+  font-family: 'Times New Roman';
+}
+
+#contact_img
+{
+	border-radius: 70%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	
+}
+
+#image1{
+	height: 80px;
+	width: 80px;
+	border-radius: 20%;
+}
+
+#gmail_img
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 30%;
+}
+
+#gmail
+{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color:darkblue;
+
+}
+
+#p1
+{
+	font-size: 20px;
+	border-style: double;
+	border-color: #E4405F;
+	border-width: 2px;
+	border-radius: 2%;
+	float: left;
+}
+
+#travelandtourisum
+{
+	font-family:monospace;
+	letter-spacing: 2px;
+}
+
+#hotel_img{
+	border-style: solid;
+	border-width:3px;
+	border-color: white;
+	border-radius: 70%;
+
+}
+
+#hotels
+{
+	font-family:monospace;
+	letter-spacing: 2px;
+}
+
+#findtheHotels
+{
+	color:rebeccapurple;
+	font-size: 25px;
+	float: inherit;
+	border-color: red;
+	border-style: groove;
+}
+
+.container
+{
+	size: 30px;
+	color: violet;
+}
+
+#logout
+{
+	font-size: 20px;
+	float: right;
+}
+
+.logo
+{
+	border-radius: 50%;
+	border-width: 3px;
+	border-color: white;
+}
+
+#ganga{
+	border-radius: 70%;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+}
+
+#helpline
+{
+	font-family:monospace;
+	letter-spacing: 2px;
+}
+
+#h_line {
+	border-radius: 70%;
+	border-style: solid;
+	border-color: white;
+}
+
+#map
+{
+	font-family:monospace;
+	letter-spacing: 2px;
+
+}
+
+#Map
+{
+	border-radius: 70%;
+    border-style: solid;
+	border-color: white;
+}
+
+#Contact
+{
+	color: teal;
+	size:30px
+}
+
+#Message
+{
+	color: teal;
+	size:30px
+}
+
+#mini
+{
+	float:none;
+}
+
+#user_name
+{
+	color: rgb(90, 20, 156);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#top{
+	position: fixed;
+	right: 120px;
+	bottom: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #e62739;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0, 0.25);
+	color: #ffffff;
+	border: none;
+	outline: none;
+	cursor:pointer;
+}
+
+#top:active {
+	background: #cc2333;
+}
+
+.back-to-top-icon{
+	color:white;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.share-btn{
+	position: relative;
+	border: none;
+	background: cornsilk;
+	color: black;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+	padding-top: 2.5px;
+	padding-right: 3px;
+	cursor: pointer;
+	z-index: 2;
+	float: left;
+
+}
+
+.share-options{
+	bottom: 50%;
+	width: 300px;
+	left: 50%;
+	height: 140px;
+	transform-origin: top left;
+	transform: scale(0);
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background: rgba(15, 15, 15, 0.5);
+	color: black;
+	padding: 20px;
+	font-family: 'roboto';
+	transition: .5s;
+	transition-delay: .5s;
+	float: left;
+	
+}
+
+.share-options.active{
+	transform:scale(1);
+	transition-delay: 0s;
+}
+
+.title{
+	opacity: 0;
+	transition: .5s;
+	transition-delay: 0s;
+	font-size: 20px;
+	text-transform: capitalize;
+	border-bottom: 1px solid #fff;
+	width: fit-content;
+	padding: 0 20px 3px 0;
+}
+
+.social-media{
+	opacity: 0;
+	transition: .5s;
+	transition-delay: 0s;
+	width: 250px;
+	height: 20px;
+	display: flex;
+	align-items: top;
+	flex-wrap: wrap;
+	margin: 0.90px;
+    float: top;
+}
+
+.social-media-btn{
+	border: none;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #000;
+	color: #fff;
+	line-height: 30px;
+	cursor: pointer;
+	margin: 0.8px;
+	text-align: center;
+}
+
+
+.social-media-btn:nth-child(6){
+	background: #E4405F;
+}
+
+.social-media-btn:nth-child(3){
+	background: #25D366;
+}
+
+.social-media-btn:nth-child(4){
+	background: #1877F2;
+}
+
+.social-media-btn:nth-child(5){
+	background: #1DA1F2;
+}
+
+.share-options.active .title,
+.share-options.active .social-media{
+	opacity:1;
+	transition:.5s;
+	transition-delay:.5s;
+}
